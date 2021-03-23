@@ -28,5 +28,5 @@ The final major design decision was the feedback resistance of the TIA. Initiall
 
 REV1.0 was built as an initial prototype to determine if the designed functioned as intended.
 
-![uLM](https://raw.githubusercontent.com/jac4e/uLM/main/hardware/REV1_0/images/Assembled_Front.jpg)
-![uLM](https://raw.githubusercontent.com/jac4e/uLM/main/hardware/REV1_0/images/Assembled_Back.jpg)
+![uLM](https://raw.githubusercontent.com/jac4e/uLM/main/hardware/REV1_0/images/Assembled_Front.JPG)
+![uLM](https://raw.githubusercontent.com/jac4e/uLM/main/hardware/REV1_0/images/Assembled_Back.JPG)
