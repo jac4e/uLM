@@ -1,0 +1,29 @@
+General:
+    - Create calibration procedure
+    - Test and measure devices characteristics
+    - Create sample software in multiple languages
+    - Flesh out documentation
+
+REV 1.1:
+    Goals:
+	    - Reduce cost
+	    - Improve board design
+
+    Hardware changes:
+        OpAmp: 
+            - LMC6041
+	        - $3.02 instead of $11.79
+            - Same footprint and pin layout as LTC6268
+	        - Slightly under spec, but is still sufficient
+        Connector:
+            - Basic header pins
+	        - Generally better than Molex Connector
+        ADC:
+            - ADS1100
+            - ~$3 instead of ~$7
+            - Same footprint, pin layout, and interface
+            - Lower resolution
+
+    Board Changes:
+        - Replace SMD feedback resistor with throughholes for axial resistor
+            - Allows for easy replacement of resistor 
