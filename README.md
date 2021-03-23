@@ -18,8 +18,8 @@ Three goals were set
 
 ## Initial Design Considerations
 
-From initial research, multiple ways of sensing light intensity was considered, but it was quickly determined that a photodiode with a low current input biased op amp to use as a transimpedance amplifier (TIA) would be the easiest way to accurately sense light intensity. Given the experiment's light source was a computer monitor, the VTP9812FH was chosen as its spectral sensitivity is similar to the human eyes. The LTC6268 was chosen as the op amp as it has a low input current bias and is advertised for this specific application. 
+From initial research, multiple ways of sensing light intensity were considered, but it was quickly determined that a photodiode with a low current input biased op-amp to use as a trans-impedance amplifier (TIA) would be the easiest way to sense light intensity accurately. Given that the experiment's light source was a computer monitor, the VTP9812FH was chosen as its spectral sensitivity is similar to that of human eyes. The LTC6268 was selected as the op-amp as it has a low input current bias and is advertised for this specific application. 
 
-In order to convert the analog signal from the LTC6268, the ADS1100 was chosen as it offers programmable gain, up to 16 bits of resolution, and I already had exposure to I2C interfaces.
+To convert the analog signal from the LTC6268, the ADS1100 was chosen as it offers programmable gain, up to 16 bits of resolution, and I already had exposure to I2C interfaces.
 
-The final major design decision was the feedback resistance of the TIA. Initially a resistance of 12.5MOhms was chosen which corresponded to a max measurement of 400 Lux, sufficient for the application. However, do to constraints with part selection, I went with a feedback resistance of 15MOhms which gives a max measurement of 333 Lux.
+The final major design decision was the feedback resistance of the TIA. Initially, a resistance of 12.5MOhms was chosen, which corresponded to a max measurement of 400 Lux, sufficient for the application. However, due to part selection constraints, I went with a feedback resistance of 15MOhms which gives a max measurement of 333 Lux.
