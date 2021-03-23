@@ -10,10 +10,11 @@ The idea came from a physics experiment in which Malus' Law is verified using a 
 
 ## Goals
 
-With that in mind, 3 goals were set:
-    - It should perform better than the smartphone app
-    - Data collection should by automatic, or nearly automatic
-    - and it should be relatively cheaper than consumer light meters
+Three goals were set
+
+- It should perform better than the smartphone app
+- Data collection should be automatic, or nearly automatic
+- and it should be relatively cheaper than consumer light meters
 
 ## Initial Design Considerations
 
