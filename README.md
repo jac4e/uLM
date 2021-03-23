@@ -23,3 +23,10 @@ From initial research, multiple ways of sensing light intensity were considered,
 To convert the analog signal from the LTC6268, the ADS1100 was chosen as it offers programmable gain, up to 16 bits of resolution, and I already had exposure to I2C interfaces.
 
 The final major design decision was the feedback resistance of the TIA. Initially, a resistance of 12.5MOhms was chosen, which corresponded to a max measurement of 400 Lux, sufficient for the application. However, due to part selection constraints, I went with a feedback resistance of 15MOhms which gives a max measurement of 333 Lux.
+
+## REV1.0
+
+REV1.0 was built as an initial prototype to determine if the designed functioned as intended.
+
+![uLM](https://raw.githubusercontent.com/jac4e/uLM/main/hardware/REV1_0/images/Assembled_Front.png)
+![uLM](https://raw.githubusercontent.com/jac4e/uLM/main/hardware/REV1_0/images/Assembled_Back.png)
